@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/weather-app/',  // ← your repo name here
+  base: '/Weather-App-React-/',
   server: {
     proxy: {
       '/api': {
